@@ -4,11 +4,19 @@ import mysql from 'mysql2'; // Correct import
 const router = Router();
 
 // Create MySQL connection
+// const con = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   database: 'job_portal',
+// });
+
 const con = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'job_portal',
+    host: 'dpg-cu2tlglumphs73b0ssv0-a',
+    user: 'job_portal_2mf6_user',
+    password: 'Lpp6hSJP9E5froFeLDM3Vx0pqXtrVPWn',
+    database: 'job_portal_2mf6' ,
+    port: 5432, // Add port if required
 });
 
 /**

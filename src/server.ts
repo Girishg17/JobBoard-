@@ -16,7 +16,7 @@ const swaggerOptions: swaggerJSDoc.Options = {
         description: 'A simple Express API using TypeScript and Swagger',
       },
     },
-    apis: ['./src/router.ts'], // Path to the API routes
+    apis: ['./src/router.ts'],
   };
   const swaggerDocs = swaggerJSDoc(swaggerOptions);
 
